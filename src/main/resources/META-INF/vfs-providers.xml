@@ -1,0 +1,7 @@
+
+<providers>
+    <provider class-name="com.hxbcc.commons.vfs2.provider.MinioFileProvider">
+        <scheme name="minio"/>
+        <if-available class-name="io.minio.MinioClient"/>
+    </provider>
+</providers>
